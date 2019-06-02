@@ -1,0 +1,19 @@
+logging:
+  level:
+    org.springframework: ERROR
+    com.hm.almundo: DEBUG
+
+spring:
+  profiles:
+    active: dev
+
+config:
+    name: call-center
+    environment: test
+    maxSessions: 10
+    priorityDefault: 0
+    priorityByRoleHash:
+        operator: 0
+        supervisor: 1
+        director: 2
+
