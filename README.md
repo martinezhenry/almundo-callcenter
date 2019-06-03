@@ -11,16 +11,24 @@ Enpoints
 
 
 MakeCall.
-  Method: GET
-  Uri: call/{phoneNumber}
-  Uso: Servicio de generar una llamada y procesarla con el primer empleado disponible, recibe como unico parametro el numero de telefono al que se desea realizar la llamada.
+
+ 
+ Method: GET
+ 
+ Uri: call/{phoneNumber}
+ 
+ Uso: Servicio de generar una llamada y procesarla con el primer empleado disponible, recibe como unico parametro el numero de telefono al que se desea realizar la llamada.
 
 AssignEmployee.
 
-  Method: POST
-  Uri: employee
-  Body: Employee Class
-  Uso: Servicio para asignar un empleado a la cola de disponibles para atender llamadas, es colocada en la respectiva cola según la prioridad/Rol del empleado recibido como cuerpo de la petición.
+ 
+ Method: POST
+ 
+ Uri: employee
+ 
+ Body: Employee Class
+ 
+ Uso: Servicio para asignar un empleado a la cola de disponibles para atender llamadas, es colocada en la respectiva cola según la prioridad/Rol del empleado recibido como cuerpo de la petición.
   
   
   
